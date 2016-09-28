@@ -2,27 +2,29 @@ body {
     background-color: #33ffe0;
     color: pink;
     font-size: 100px;
-    line-height:180px;
-    letter-spacing: 50px;
+    line-height:250px;
+    letter-spacing: 30px;
     font-family: futura, Helvetica, Arial, sans-serif;
 }
 
 .ontop {
+    font-size:20px;
+    line-height:30px;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 80;
+    right: 80;
     margin: 0;
     padding: 60px;
-    border: 10px solid red;
+    border: 5px solid yellow;
     width: 200px;
-    height: 200px;
+    height: 70px;
     overflow: hidden;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    background-color: black
+    text-decoration: underline;
+    color: blue;
+    background-color: yellow;
 }
 
 p {
