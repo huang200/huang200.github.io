@@ -5,6 +5,28 @@ body {
     line-height:250px;
     letter-spacing: 30px;
     font-family: futura, Helvetica, Arial, sans-serif;
+    margin:0;
+}
+    
+.column {
+    background-color: red;
+    color: blue;
+    width:200px;
+    height: 80px;
+    font-size:28;
+    letter-spacing: 10px;
+    float:left;
+    line-height:80px;
+    padding-left:30;
+    margin:20px;
+    
+    
+    
+}
+.wrapper{
+    margin: 0 auto;
+    width:900px;
+    
 }
 
 .ontop {
@@ -14,11 +36,12 @@ body {
     top: 80;
     right: 80;
     margin: 0;
-    padding: 60px;
+    padding: 10px;
     border: 5px solid yellow;
-    width: 200px;
-    height: 70px;
+    width: 300px;
+    height: 130px;
     overflow: hidden;
+    margin: 100px;
 }
 
 a {
@@ -31,18 +54,19 @@ p {
     color: yellow;
     background-color: blue;
 }
-.genius {
-    background-color: red;
-    color: green;
-    width: 200px;
-    overflow: hidden;
-    text-decoration: underline;
-}
 .speical {
-    color: pink;
-    background-color: yellow;
+    margin:0px;
 }
 
-#myh1 {
-    font-family: Helvetica;
+.button {
+    width:200;
+    height:100;
+    background-color:yellow;
+    color: purple;
+    font-size: 20;
+    line-height: 5;
+    float:auto;
+    right:20;
+    bottom:20;
+
 }
