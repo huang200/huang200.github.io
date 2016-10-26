@@ -1,0 +1,74 @@
+body {
+    background-color: #f8c5d0;
+}
+
+
+.h1 {
+    display: block;
+	width: 864px;
+	height: 1296px;
+	background-image:url("../image/h1.png");
+	background-repeat: no-repeat;
+	overflow:hidden;
+	text-indent:100%;
+	white-space: nowrap;
+    position: absolute;
+	top: -400px;
+	right: 270px;
+	animation-name: h1;
+    animation-duration: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.h2 {
+    display: block;
+	width: 864px;
+	height: 1296px;
+	background-image:url("../image/h2.png");
+	background-repeat: no-repeat;
+	overflow:hidden;
+	text-indent:100%;
+	white-space: nowrap;
+    position: absolute;
+	top: -400px;
+	right: 270px;
+	animation-name: h2;
+    animation-duration: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.me {
+    display: block;
+	width: 864px;
+	height: 1296px;
+	background-image:url("../image/1.png");
+	background-repeat: no-repeat;
+	overflow:hidden;
+	text-indent:100%;
+	white-space: nowrap;
+    position: absolute;
+	top: -400px;
+	right: 270px;
+}
+
+.me:hover {
+ background-image:url("../image/123.png");
+}
+
+@keyframes h1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes h2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-5deg);
+    }
+}

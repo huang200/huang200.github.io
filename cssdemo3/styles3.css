@@ -1,20 +1,22 @@
-.box {
-    width:200px;
-    height:200px;
-    background-color: blue;
-    animation-name: pulse;
-    animation-duration: 3s;
-    animation-iteration-count:infinite;
+body.{
+    background-color: white;
 }
 
-@keyframes pulse{
-    0% {
-        background-color:blue;
-    }
-    50%   {
-        background-color:green;
-    }
-    100% {
-        background-color:red;
-    }
+.box {
+    display: block;
+	width: 864px;
+	height: 864px;
+	background-image:url("../image/sp1.gif");
+	background-repeat: no-repeat;
+	overflow:hidden;
+	text-indent:100%;
+	white-space: nowrap;
+    position: absolute;
+	top: 0px;
+	right: 0px;
+}
+	
+
+.box:hover {
+	background-position: -864px 0px;
 }
