@@ -31,7 +31,8 @@ var star4Centery = 284;
 var star5Centery = 448;
 var star6Centery = 513;
 
-$('.starOverlayUp').mousemove(function(e) { 
+$(document).ready(function(){
+$(document).mousemove(function(e) {
 	var x = e.originalEvent.x || e.originalEvent.layerX || 0; 
 	var y = e.originalEvent.y || e.originalEvent.layerY || 0; 
 
@@ -78,7 +79,7 @@ $('.starOverlayUp').mousemove(function(e) {
 	// newStar5y = maxGap(star5Centery,newStar5y);
 	// newStar6y = maxGap(star6Centery,newStar6y);
 
-	$('.star1Down').css({
+	$(".star1Down").css({
 		top: newStar1y,
 		left: newStar1x
 	});
@@ -104,3 +105,4 @@ $('.starOverlayUp').mousemove(function(e) {
 	});
 	// var newStar1x = x
 }); 
+});
