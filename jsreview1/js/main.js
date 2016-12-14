@@ -10,7 +10,7 @@ $("botton").click(function(){
 
 
 var counter = 0;
-for (var i = 0; i < 10000; i++) {
+for (var i = 0; i < 9996; i++) {
     $("body").append("<div class='dot'></div>")
 }
 
